@@ -153,6 +153,7 @@ public class Admin {
         System.out.println("Please input seat capacity:");
         int seatCapacity = in.nextInt();
         int seatNum = 0;
+	System.out.printf("Successfully creat flight:\nFlightId:%s\n StartTime:%s\n ArrivalTime:%s\n StartCity:%s\n ArrivalCity:%s\n DepartureDate:%s\n Price:%d\n SeatCapacity:%d\n SeatNum:%d\n",flightID, startTime, arrivalTime, startCity, arrivalCity, departureDate, price, seatCapacity, seatNum);
         Flight f = new Flight(flightID, startTime, arrivalTime, startCity, arrivalCity, departureDate, price, seatNum, seatCapacity);
         flights.add(f);
     }
