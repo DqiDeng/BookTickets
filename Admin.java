@@ -235,7 +235,7 @@ public class Admin {
 									  }   
                                 	  break;
                     case AVAILABLE: System.out.printf(
-                                                        "\nPlease choose the information you wish to update:\n%s%s",
+                                                        "\nPlease choose the information you wish to update:\n%s\n%s\n%s",
                                                         "0:Exit",
                                                         "1:price",
                                                         "2:seat capacity");
@@ -253,6 +253,7 @@ public class Admin {
 												break;
 										default : System.out.println("No such command!");
 									}
+				    break;                          
                     case TERMINATE: System.out.println("The flight is terminated, you can't edit its information");
                                                   break;
                     default: break;
