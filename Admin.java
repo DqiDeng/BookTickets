@@ -171,7 +171,7 @@ public class Admin {
                 int opt = 0;
                 switch (a.getFlightStatus()) {
                     case UNPUBLISHED: System.out.printf("\nPlease choose the information you wish to update:\n%s%s%s%s%s%s%s%s",
-                                                        "0:Exit",
+                                                        "0:Exit\n",
                                                         "1:FlightID\n",
                                                         "2:start time\n",
                                                         "3:arrival time\n",
